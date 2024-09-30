@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     collatz_cache
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _create_cache, symObjAddr: 0x0, symBinAddr: 0x100001440, symSize: 0x70 }
+  - { offset: 0x127, size: 0x8, addend: 0x0, symName: _create_cache, symObjAddr: 0x0, symBinAddr: 0x100001440, symSize: 0x70 }
+  - { offset: 0x16B, size: 0x8, addend: 0x0, symName: _create_cache_entry, symObjAddr: 0x70, symBinAddr: 0x1000014B0, symSize: 0x60 }
+  - { offset: 0x1AF, size: 0x8, addend: 0x0, symName: _move_to_front, symObjAddr: 0xD0, symBinAddr: 0x100001510, symSize: 0xF0 }
+  - { offset: 0x1E1, size: 0x8, addend: 0x0, symName: _evict, symObjAddr: 0x1C0, symBinAddr: 0x100001600, symSize: 0x3A0 }
+  - { offset: 0x2AD, size: 0x8, addend: 0x0, symName: _add_to_cache, symObjAddr: 0x560, symBinAddr: 0x1000019A0, symSize: 0xB0 }
+  - { offset: 0x2FB, size: 0x8, addend: 0x0, symName: _find_in_cache, symObjAddr: 0x610, symBinAddr: 0x100001A50, symSize: 0x70 }
+  - { offset: 0x33F, size: 0x8, addend: 0x0, symName: _collatz_steps, symObjAddr: 0x680, symBinAddr: 0x100001AC0, symSize: 0x60 }
+  - { offset: 0x375, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6E0, symBinAddr: 0x100001B20, symSize: 0x2E0 }
+...
