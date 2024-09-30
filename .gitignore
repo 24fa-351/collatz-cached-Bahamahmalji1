@@ -1,0 +1,8 @@
+
+collatz_cache
+
+collatz_cache.dSYM/
+
+*.o
+*.out
+*.log
